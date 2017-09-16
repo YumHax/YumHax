@@ -1,0 +1,14 @@
+h1 {
+	color: red;
+}
+
+body{
+
+	min-height: 100%;
+}
+.footer{
+	text-align: center;
+	position: relative;
+	background-color: rgb(230,230,230);
+	min-width: 100%;
+}
