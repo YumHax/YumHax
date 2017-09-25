@@ -12,6 +12,10 @@ app.get('/',function(req, res){
       res.sendFile(path + 'index.html');
 });
 
+app.get('/fr_lang.php',function(req, res){  
+      res.sendFile(path + 'fr_lang.php');
+});
+
 app.listen(80, function () {
 	console.log("YumHax")
 });
